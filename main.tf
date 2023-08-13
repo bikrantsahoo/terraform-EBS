@@ -1,6 +1,6 @@
 # provider and profile
 provider "aws" {
-  profile = "kuldeep"
+  profile = "bikrant"
   region  = "ap-south-1"
 }
 
