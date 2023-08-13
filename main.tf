@@ -1,7 +1,7 @@
 # provider and profile
 provider "aws" {
   profile = "bikrant"
-  region  = "ap-south-1"
+  region  = "us-east-1"
 }
 
 # default vpc
@@ -18,7 +18,7 @@ variable "key_name" {
 
 # base_path variable
 variable "base_path" {
-  default = "/home/krajpurohit/terra-infra/"
+  default = "/home/bikrantsahoo/terra-infra/"
 }
 
 # private key 
